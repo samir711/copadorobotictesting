@@ -22,7 +22,7 @@ Login to Application
     TypeText           Phone                       4373441108
     TypeText           SSN                         12345612771
     TypeText           Username                    samir701                anchor=SSN
-    TypeText           Password                    copadouser1              anchor=Confirm
+    TypeText           Password                    copadouser1             anchor=Confirm
     Typetext           Confirm                     copadouser1
     ClickText          REGISTER                    anchor=Confirm
 
