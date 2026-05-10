@@ -7,7 +7,6 @@ ${BANK_URL}            https://parabank.parasoft.com/parabank/index.htm
 
 
 *** Test Cases ***
-
 Login to Application
     [Documentation]    This is login test case for Parabank suite
     [Tags]             smoke
@@ -22,7 +21,9 @@ Login to Application
     TypeText           Zip Code                    L6Y 0Y8
     TypeText           Phone                       4373441108
     TypeText           SSN                         12345612771
-    TypeText           Username                    samir711                anchor=SSN
-    TypeText           Password                    copadouser              anchor=Confirm
-    Typetext           Confirm                     copadouser
-    ClickText          REGISTER                    anchor=Confirm:
+    TypeText           Username                    samir701                anchor=SSN
+    TypeText           Password                    copadouser1              anchor=Confirm
+    Typetext           Confirm                     copadouser1
+    ClickText          REGISTER                    anchor=Confirm
+
+Open 
