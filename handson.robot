@@ -26,4 +26,15 @@ Login to Application
     Typetext           Confirm                     copadouser1
     ClickText          REGISTER                    anchor=Confirm
 
-Open 
+Open New Account
+    [Tags]             smoke
+    ClickText          Open New Account
+    DropDown           type                        SAVINGS
+    DropDown           type                        CHECKING
+    ClickText          Open New Account            anchor=Log Out
+    VerifyText         Congratulations
+    ClickItem          newAccountId
+    # ClickText        29661
+    DropDown           month                       January
+    DropDown           transactionType             Credit
+    ClickText          Go
